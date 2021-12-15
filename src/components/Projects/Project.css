@@ -1,0 +1,24 @@
+/* .project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-wrapper .mix {
+    background: #fff;
+    width: calc(33.33333% - 10px);
+    height: 200px;
+    margin: 5px;
+}
+.filter-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.filter-group .filter-item {
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.filter-group .mixitup-control-active {
+    background: #66fcf1 87;
+} */

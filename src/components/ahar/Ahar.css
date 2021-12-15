@@ -1,0 +1,48 @@
+.taitles{
+    text-align: center;
+    padding: 1rem 0;
+}
+.top-ahar{
+    padding:1rem 0;
+}
+.bottom-ahar{
+    padding:1rem 0;
+}
+.ahar-container{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c501.951C94.027%2c517.935%2c191.496%2c473.539%2c266.301%2c414.372C337.752%2c357.858%2c372.796%2c269.916%2c402.321%2c183.734C429.553%2c104.246%2c443.505%2c21.093%2c429.412%2c-61.74C415.554%2c-143.191%2c382.358%2c-222.35%2c323.386%2c-280.216C266.708%2c-335.831%2c183.739%2c-345.278%2c110.122%2c-375.043C27.048%2c-408.632%2c-47.539%2c-472.592%2c-136.927%2c-466.331C-233.62%2c-459.558%2c-333.264%2c-416.799%2c-392.215%2c-339.856C-450.335%2c-263.996%2c-452.893%2c-159.259%2c-445.172%2c-64.006C-438.485%2c18.497%2c-393.342%2c89.086%2c-351.65%2c160.593C-313.861%2c225.406%2c-267.678%2c280.492%2c-213.845%2c332.749C-147.276%2c397.369%2c-91.463%2c486.403%2c0%2c501.951' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 976.0840000000001C1521.698 976.5830000000001 1597.542 952.098 1674.673 925.158 1774.208 890.392 1907.16 889.0699999999999 1956.257 795.767 2004.9009999999998 703.3240000000001 1929.807 594.233 1901.758 493.609 1877.363 406.095 1850.882 322.695 1802.884 245.55900000000003 1747.252 156.154 1702.974 38.05200000000002 1601.282 10.722999999999956 1499.465-16.639999999999986 1405.397 70.78899999999999 1308.673 112.74099999999999 1224.537 149.233 1134.686 174.238 1071.355 240.56799999999998 1006.2080000000001 308.8 966.538 396.71000000000004 949.0350000000001 489.40999999999997 930.996 584.953 920.77 690.871 970.566 774.383 1019.185 855.921 1119.938 884.828 1207.161 922.3050000000001 1281.8609999999999 954.4010000000001 1358.699 975.588 1440 976.0840000000001' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    color: #fff;
+}
+.bttn{
+    margin-top: 1rem;
+    padding: 5px;
+}
+
+.bts{
+    border: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    background: #fff;
+    color: #006bb3;
+    border: solid 1px rgba(0, 107, 179, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+   }
+   
+   .bts:before {
+    content: "»";
+    opacity: 0;
+    margin-left: -15px;
+    transition-duration: 0.2s;
+   }
+   
+   .bts:hover:before {
+    margin-left: 0px;
+    opacity: 1;
+   }
+   
+   .bts:hover {
+    color: black;
+    background: rgb(241, 4, 115);
+    border: solid 1px gainsboro;
+   }

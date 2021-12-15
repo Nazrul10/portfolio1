@@ -1,0 +1,256 @@
+
+.container-contact{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1137%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M271.703%2c167.995C297.573%2c167.642%2c315.968%2c146.309%2c329.351%2c124.167C343.378%2c100.959%2c355.423%2c73.806%2c343.289%2c49.554C330.133%2c23.259%2c301.081%2c7.725%2c271.703%2c8.948C244.123%2c10.096%2c222.433%2c30.597%2c209.749%2c55.114C198.146%2c77.542%2c199.113%2c103.642%2c211.263%2c125.779C223.936%2c148.869%2c245.366%2c168.355%2c271.703%2c167.995' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1339.51%2c206.74C1370.68%2c206.33%2c1396.722%2c186.27%2c1412.98%2c159.672C1430.101%2c131.661%2c1439.688%2c97.311%2c1424.039%2c68.452C1407.789%2c38.484%2c1373.538%2c22.129%2c1339.51%2c24.183C1308.505%2c26.055%2c1286.15%2c50.584%2c1270.987%2c77.692C1256.272%2c103.999%2c1248.482%2c135.025%2c1262.618%2c161.648C1277.553%2c189.775%2c1307.667%2c207.158%2c1339.51%2c206.74' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1256.732%2c44.656C1273.99%2c44.062%2c1289.324%2c34.174%2c1297.759%2c19.106C1305.997%2c4.391%2c1305.889%2c-13.489%2c1297.459%2c-28.095C1289.027%2c-42.703%2c1273.547%2c-50.649%2c1256.732%2c-51.974C1236.763%2c-53.547%2c1213.734%2c-52.522%2c1203.13%2c-35.528C1192.14%2c-17.916%2c1198.968%2c4.85%2c1210.505%2c22.108C1220.717%2c37.384%2c1238.368%2c45.288%2c1256.732%2c44.656' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M664.802%2c515.576C712.163%2c517.881%2c759.403%2c498.044%2c784.207%2c457.632C810.107%2c415.434%2c810.294%2c361.864%2c785.424%2c319.052C760.665%2c276.432%2c714.048%2c250.006%2c664.802%2c252.085C618.674%2c254.033%2c581.842%2c287.542%2c560.62%2c328.544C541.173%2c366.116%2c543.374%2c409.954%2c563.961%2c446.913C585.17%2c484.989%2c621.269%2c513.457%2c664.802%2c515.576' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M995.771%2c405.694C1027.582%2c405.2%2c1054.952%2c385.84%2c1071.329%2c358.564C1088.27%2c330.35%2c1095.526%2c295.346%2c1079.176%2c266.786C1062.741%2c238.077%2c1028.805%2c224.835%2c995.771%2c226.579C965.601%2c228.172%2c941.754%2c248.871%2c926.339%2c274.854C910.529%2c301.504%2c901.514%2c333.602%2c916.039%2c360.974C931.348%2c389.824%2c963.115%2c406.201%2c995.771%2c405.694' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1362.44%2c648.942C1397.684%2c650.71%2c1430.848%2c629.557%2c1447.251%2c598.313C1462.662%2c568.958%2c1453.982%2c534.778%2c1437.467%2c506.03C1420.875%2c477.149%2c1395.741%2c451.374%2c1362.44%2c450.687C1328.156%2c449.979%2c1297.42%2c472.267%2c1281.849%2c502.819C1267.546%2c530.881%2c1275.978%2c562.904%2c1291.189%2c590.484C1307.091%2c619.317%2c1329.554%2c647.292%2c1362.44%2c648.942' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1251.08%2c567.133C1285.141%2c566.781%2c1324.441%2c566.691%2c1341.631%2c537.284C1358.91%2c507.724%2c1342.307%2c471.809%2c1323.543%2c443.168C1306.935%2c417.818%2c1281.385%2c399.34%2c1251.08%2c399.067C1220.309%2c398.79%2c1193.447%2c416.276%2c1176.322%2c441.843C1156.598%2c471.291%2c1139.063%2c508.755%2c1157.224%2c539.192C1175.151%2c569.236%2c1216.096%2c567.495%2c1251.08%2c567.133' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M72.306%2c686.006C120.495%2c686.674%2c161.905%2c651.445%2c182.159%2c607.714C199.714%2c569.811%2c182.449%2c528.931%2c161.899%2c492.564C140.875%2c455.358%2c114.938%2c416.278%2c72.306%2c413.31C25.474%2c410.05%2c-19.325%2c437.195%2c-41.852%2c478.382C-63.575%2c518.1%2c-54.204%2c565.07%2c-32.393%2c604.739C-9.579%2c646.232%2c24.96%2c685.349%2c72.306%2c686.006' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1194.859%2c447.094C1212.297%2c447.311%2c1228.884%2c439.067%2c1237.954%2c424.172C1247.4%2c408.661%2c1249.428%2c388.741%2c1239.753%2c373.372C1230.571%2c358.787%2c1212.092%2c355.989%2c1194.859%2c355.718C1176.963%2c355.437%2c1156.801%2c356.659%2c1147.454%2c371.923C1137.834%2c387.634%2c1143.758%2c407.538%2c1153.585%2c423.12C1162.681%2c437.544%2c1177.808%2c446.881%2c1194.859%2c447.094' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1441.17%2c468.878C1488.678%2c468.483%2c1535.378%2c449.949%2c1560.096%2c409.375C1585.786%2c367.206%2c1588.487%2c312.599%2c1561.616%2c271.173C1536.608%2c232.619%2c1487.055%2c223.511%2c1441.17%2c226.029C1400.215%2c228.277%2c1364.237%2c249.018%2c1341.634%2c283.245C1316.01%2c322.049%2c1296.798%2c370.399%2c1318.772%2c411.38C1341.603%2c453.958%2c1392.859%2c469.279%2c1441.17%2c468.878' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1137'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    overflow-x: hidden;
+}
+#contact {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+  .alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+  }
+  
+  .send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+  }
+  
+  /* Begin Right Contact Page */
+  .direct-contact-container {
+    max-width: 400px;
+    margin-top: 3rem;
+  }
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+  .place {
+    margin-left: 62px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+  }
+  
+  .gmail {
+    margin-left: 53px;
+  }
+  
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+  .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.6);
+  }
+  
+  /* Begin Media Queries*/
+  @media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 300px;
+    }    
+    .social-media-list li {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 569px) {
+  
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      margin: 0 auto;
+    }  
+    .form-control, textarea {
+      
+      margin: 0 auto;
+    }
+   
+    
+    .name, .email, textarea {
+      width: 280px;
+    } 
+    
+    .direct-contact-container {
+      margin-top: 60px;
+      max-width: 280px;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      height: 55px;
+      width: 55px;
+      line-height: 55px;
+      font-size: 2rem;
+    }
+    .social-media-list li:after {
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 410px) {
+    .send-button {
+      width: 99%;
+    }
+  }

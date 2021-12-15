@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;700&display=swap');
+
+.headings{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1093%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M336.51 536.46 a138.17 138.17 0 1 0 276.34 0 a138.17 138.17 0 1 0 -276.34 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1166.84 355.25 a169.86 169.86 0 1 0 339.72 0 a169.86 169.86 0 1 0 -339.72 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M563.11 550.74 a100.87 100.87 0 1 0 201.74 0 a100.87 100.87 0 1 0 -201.74 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M791.99 404.3 a114.11 114.11 0 1 0 228.22 0 a114.11 114.11 0 1 0 -228.22 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-28.84 188.68 a124.65 124.65 0 1 0 249.3 0 a124.65 124.65 0 1 0 -249.3 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1170.19 33.06 a148.08 148.08 0 1 0 296.16 0 a148.08 148.08 0 1 0 -296.16 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M850.16 250.6 a163.36 163.36 0 1 0 326.72 0 a163.36 163.36 0 1 0 -326.72 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1093'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    height: 100vh;
+}
+.headerimg{
+    margin-top: 23%;
+}
+.headerimg img{
+    animation: borders infinite 0.5s linear;
+}
+
+  @keyframes borders {
+    from {
+        width: 60%;
+        border: dashed 7px;
+        border-radius: 50%;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    to {
+        width: 60%;
+        border: dashed 7px;
+        border-radius: 50%;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #3020ff,#f00);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+  }
+  .scroll-hd h1{
+        color: #fff;
+        font-family: 'Josefin Sans';
+        font-weight: 700;
+        font-size: 3.5rem;
+        margin-top: 25%;
+        text-align: left;
+  }
+  .scroll-hd h2{
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .scroll-hd h3{
+    color: rgb(167, 166, 166);
+    font-family: 'Josefin Sans';
+    font-weight: 200;
+    font-size: 3.5rem;
+    text-align: left;
+  }
+  .cv-div{
+      text-align: left;
+  }
+  .cv-dwln {
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+   }
+   
+   .cv-dwln:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   .cv-dwln:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   
+   .cv-dwln:hover::before {
+    filter: blur(20px);
+   }
+   
+   .cv-dwln:active {
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+   }
