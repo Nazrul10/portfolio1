@@ -10,8 +10,8 @@ const Card = () => {
             <div className="proj">
             <h1 className="text-center">Projects</h1>
             </div>
-                <Col md={4} sm={12} xs={12} lg={4}>
-                <div class="container">
+                <Col md={6} sm={12} xs={12} lg={4}>
+                <div className="container-box">
     <div class="card">
       <div class="image">
         <img  href="#" src ="https://i.ibb.co/fp7nCVb/Screenshot-3.jpg"/>
@@ -29,8 +29,8 @@ This is an e-commerce niche project, users can buy any drone if they are logged 
     </div>    
   </div>
                 </Col>
-                <Col md={4} sm={12} xs={12} lg={4}>
-                <div class="container">
+                <Col md={6} sm={12} xs={12} lg={4}>
+                <div className="container-box">
     <div class="card">
       <div class="image">
         <img href = "#" src ="https://i.ibb.co/C61D0Pp/Screenshot-4.jpg"/>
@@ -48,8 +48,8 @@ This is an e-commerce niche project, users can buy any drone if they are logged 
     </div>    
   </div>
                 </Col>
-                <Col md={4} sm={12} xs={12} lg={4}>
-                <div class="container">
+                <Col md={6} sm={12} xs={12} lg={4}>
+                <div className="container-box">
     <div class="card">
       <div class="image">
         <img href = "#" src ="https://i.ibb.co/XLcczc5/Screenshot-2.jpg"/>

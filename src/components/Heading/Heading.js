@@ -20,7 +20,7 @@ const Heading = () => {
  
     return (
         <div ref={myRef} className="headings">
-            <Container>
+            <Container className='img-text'>
              <Row>
                 <Col md={6} sm={12} xs={12} lg={6}>
                 <div className="headerimg">

@@ -7,8 +7,8 @@ const About = () => {
         <div className="guy-container">
             <Container className="conts">
             <Row>
-            <Row>
-            <h1 className="text-center p-4">ABOUT</h1>
+            <Row className='icon-text'>
+            <h1 className="text-center p-4 about-text">ABOUT</h1>
                         <Col md={3} sm={12} xs={12} lg={3}>
                             <img src="https://i.ibb.co/41SrFzf/icons8-fast-50.png" alt="" />
                             <h1>Fast</h1>
@@ -44,19 +44,19 @@ When I was a kid, programming was a curiosity for me. From then on I had a missi
                         <div className="bar">
                         <div className="prog-text">
 		                <h1>html</h1>
-		                <TagCanvas done="70"/>
+		                <TagCanvas done="90"/>
 	                    </div>
                         <div className="prog-text">
 		                <h1>CSS</h1>
-		                <TagCanvas done="75"/>
+		                <TagCanvas done="80"/>
 	                    </div>
                         <div className="prog-text">
 		                <h1>JavaScript</h1>
-		                <TagCanvas done="60"/>
+		                <TagCanvas done="70"/>
 	                    </div>
                         <div className="prog-text">
 		                <h1>React</h1>
-		                <TagCanvas done="70"/>
+		                <TagCanvas done="60"/>
 	                    </div>
                         <div className="prog-text">
 		                <h1>Bootstrap</h1>

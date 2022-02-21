@@ -1,42 +1,58 @@
 
   .cards-containers {
-    display : flex;
-    align-items : center;
-    justify-content : center;  
+    /* display : flex; */
+    /* align-items : center; */
+    /* justify-content : center;   */
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1096.9338456358964 220.8250685605517L1150.3169909878823 106.34454391465034 1035.836466341981 52.9613985626645 982.4533209899951 167.44192320856587z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M934.5645255487261 119.07478243753458L957.5079507136458 218.45367501282777 1056.886843288939 195.51024984790814 1033.9434181240194 96.13135727261495z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M835.4085307543623 273.5288653829533L737.2996310783901 313.1674338398764 776.9381995353132 411.2763335158487 875.0470992112855 371.6377650589256z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M998.316%2c525.383C1034.612%2c524.528%2c1067.056%2c504.301%2c1085.366%2c472.951C1103.846%2c441.31%2c1106.644%2c402.455%2c1088.807%2c370.447C1070.507%2c337.607%2c1035.879%2c318.287%2c998.316%2c316.74C957.64%2c315.065%2c914.574%2c327.338%2c893.925%2c362.422C873.043%2c397.902%2c881.652%2c442.561%2c903.859%2c477.227C924.291%2c509.123%2c960.448%2c526.275%2c998.316%2c525.383' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M350.762%2c640.428C412.976%2c643.075%2c471.096%2c603.254%2c497.949%2c547.071C521.946%2c496.864%2c496.058%2c442.461%2c468.484%2c394.126C440.551%2c345.16%2c407.125%2c290.123%2c350.762%2c289.059C293.286%2c287.974%2c251.418%2c338.432%2c225.079%2c389.529C201.199%2c435.855%2c200.433%2c488.808%2c223.776%2c535.407C250.144%2c588.045%2c291.942%2c637.926%2c350.762%2c640.428' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1109.4279357044145 421.7368005564406L983.5497125422476 441.67395248102747 1129.3650876290014 547.6150237186075z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-    height : 700px;
+    height : 550px;
   }
   
-  .container {
+  @media only screen and (max-width: 767px){
+    .container-box{
+      padding :180px 0; 
+      /* margin-top: -50px; */
+    }
+    .cards-containers{
+      height: 800px !important;
+    }
+    .card{
+      margin: -5rem 10px !important;
+      /* padding: -14rem 0 !important; */
+    }
+    .cards-containers{
+      /* height: 10em !important; */
+    }
+ }
+  .container-box {
     position : relative;
-    width : 1100px;
+    /* width : 1100px; */
     /* display : flex; */
     align-items : center;
     justify-content : center;
-    flex-warp : warp;
-    /* padding : 30px;   */
+    /* padding :20px 0;   */
+    margin-left: 2rem;
   }
   
-  .container .card {
+  .container-box .card {
     position: absolute;
     max-width : 300px;
     height : 215px;  
     background-color : #fff;
-    margin : 30px 10px;
+    /* margin : 30px 10px; */
     padding : 20px 15px;
-    margin-top: -100px;
-    display : flex;
-    flex-direction : column;
+    margin-top: 100px;
+    /* display : flex; */
+    /* flex-direction : column; */
     box-shadow : 0 5px 20px rgba(0,0,0,0.5);
     transition : 0.3s ease-in-out;
     border-radius : 15px;
   }
-  .container .card:hover {
+  .container-box .card:hover {
     height : 320px;    
   }
   
   
-  .container .card .image {
+  .container-box .card .image {
     position : relative;
     width : 260px;
     height : 260px;
@@ -46,13 +62,13 @@
     z-index : 1;
   }
   
-  .container .card .image img {
+  .container-box .card .image img {
     max-width : 100%;
     height: 100%;
     border-radius : 15px;
   }
   
-  .container .card .content {
+  .container-box .card .content {
     position : relative;
     top : -140px;
     padding : 10px 15px;
@@ -65,7 +81,7 @@
       
   }
   
-  .container .card:hover .content {
+  .container-box .card:hover .content {
      margin-top : 30px;
      visibility : visible;
      opacity : 1;
@@ -76,7 +92,7 @@
       color: #fff;
   }
   .proj h1{
-      margin-top: -280px;
+      margin-top: 20px;
       text-transform: uppercase;
   }
  

@@ -4,45 +4,13 @@
     height: 100vh;
 }
 .headerimg{
-    margin-top: 23%;
-    /* text-align: center; */
+    margin-top: 100px;
+    text-align: center;
 }
 .headerimg img{
     animation: borders infinite 0.5s linear;
 }
 
-@media only screen and (max-width: 575px) {
-  .headerimg img{
-    width: 20% !important;
-  }
-  .headerimg{
-    margin-top: 10px;
-  }
-}
-@media only screen and (min-width: 576px) {
-  .scroll-hd h1{
-    color: #fff;
-    font-family: 'Josefin Sans';
-    font-weight: 700;
-    font-size: 3.5rem;
-    margin-top: 25%;
-    text-align: left;
-}
-.scroll-hd h2{
-color: #fff;
-font-family: 'Josefin Sans';
-font-weight: 200;
-font-size: 2rem;
-text-align: left;
-}
-.scroll-hd h3{
-color: rgb(167, 166, 166);
-font-family: 'Josefin Sans';
-font-weight: 200;
-font-size: 3.5rem;
-text-align: left;
-}
-}
   @keyframes borders {
     from {
         width: 60%;
@@ -64,17 +32,18 @@ text-align: left;
   .scroll-hd h1{
     color: #fff;
     font-family: 'Josefin Sans';
-    /* font-weight: 700;
-    font-size: 3.5rem;
-    margin-top: 25%;
-    text-align: left; */
+    font-weight: 700;
+    margin-top: 150px;
+    /* font-size: 3.5rem; */
+    /* margin-top: 25%; */
+    /* text-align: left; */
 }
 .scroll-hd h2{
 color: #fff;
 font-family: 'Josefin Sans';
-/* font-weight: 200;
+font-weight: 200;
 font-size: 2rem;
-text-align: left; */
+/* text-align: left; */
 }
 .scroll-hd h3{
 color: rgb(167, 166, 166);
@@ -84,7 +53,7 @@ font-size: 30px;
 /* text-align: left; */
 }
   .cv-div{
-      text-align: left;
+      /* text-align: left; */
   }
   .cv-dwln {
     text-decoration: none;
